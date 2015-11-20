@@ -14,6 +14,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Diagnostics;
 #endregion
 
 namespace GameStateManagement
@@ -41,13 +42,15 @@ namespace GameStateManagement
 
         Random random = new Random();
 
-        static DateTime startRumble;
+        //static DateTime startRumble;
+        float rumbleDuration = 1.0f;
 
         float pauseAlpha;
         float playerSpeed;
         float playerRot;
         float playerRotDeg;
-
+        
+        Stopwatch s = new Stopwatch();
         #endregion
 
         #region Initialization
@@ -115,7 +118,10 @@ namespace GameStateManagement
 
             // Gradually fade in or out depending on whether we are covered by the pause screen.
             if (coveredByOtherScreen)
+            {
                 pauseAlpha = Math.Min(pauseAlpha + 1f / 32, 1);
+                GamePad.SetVibration(PlayerIndex.One, 0f, 0f);
+            }
             else
                 pauseAlpha = Math.Max(pauseAlpha - 1f / 32, 0);
 
@@ -123,19 +129,17 @@ namespace GameStateManagement
             {
                 playerBoundingBox = new Rectangle((int)playerPosition.X, (int)playerPosition.Y, (int)(spaceShip.Width * 0.2), (int)(spaceShip.Height * 0.2));
                 starBoundingBox = new Rectangle((int)starPosition.X, (int)starPosition.Y, (int)(starTexture.Width * 0.2), (int)(starTexture.Height * 0.2));
-                
                 if (playerBoundingBox.Intersects(starBoundingBox))
                 {
                     starPosition = new Vector2(random.Next(100, 1100), random.Next(100, 600));
+                    s.Start();
                     GamePad.SetVibration(PlayerIndex.One, 0.5f, 0.5f);
-                    startRumble = DateTime.Now;
                 }
-
-                TimeSpan timePassedRumble = DateTime.Now - startRumble;
-
-                if (timePassedRumble.TotalSeconds >= 0.5)
+                if (s.Elapsed > TimeSpan.FromSeconds(0.5))
                 {
                     GamePad.SetVibration(PlayerIndex.One, 0f, 0f);
+                    s.Stop();
+                    s.Reset();
                 }
             }
         }
@@ -184,9 +188,7 @@ namespace GameStateManagement
 
                 if (keyboardState.IsKeyDown(Keys.Down))
                     playerSpeed -= 0.1f;
-#endif
 
-#if XBOX360
                 Vector2 thumbstick = gamePadState.ThumbSticks.Left;
 
                 playerRotDeg += thumbstick.X * 2;
@@ -276,21 +278,25 @@ namespace GameStateManagement
                 playerSpeed = 0;
             }
             //Vibration
-            if (playerPosition.X >= (rightSide-100))
+            if (playerPosition.X >= rightSide)
             {
-                GamePad.SetVibration(PlayerIndex.One, 0.7f, 0.7f);
+                GamePad.SetVibration(PlayerIndex.One, 1f, 1f);
+                s.Start();
             }
-            if (playerPosition.X <= (leftSide + 100))
+            if (playerPosition.X <= leftSide)
             {
-                GamePad.SetVibration(PlayerIndex.One, 0.7f, 0.7f);
+                GamePad.SetVibration(PlayerIndex.One, 1f, 1f);
+                s.Start();
             }
-            if (playerPosition.Y >= (botSide - 100))
+            if (playerPosition.Y >= botSide)
             {
-                GamePad.SetVibration(PlayerIndex.One, 0.7f, 0.7f);
+                GamePad.SetVibration(PlayerIndex.One, 1f, 1f);
+                s.Start();
             }
-            if (playerPosition.Y <= (topSide + 100))
+            if (playerPosition.Y <= topSide)
             {
-                GamePad.SetVibration(PlayerIndex.One, 0.7f, 0.7f);
+                GamePad.SetVibration(PlayerIndex.One, 1f, 1f);
+                s.Start();
             }
         }
 
