@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\background.xnb</Output>
+      <Time>2015-11-19T17:17:44.0452384+08:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.png</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\blank.xnb</Output>
+      <Time>2015-11-19T17:17:44.0522301+08:00</Time>
+    </Item>
+    <Item>
+      <Source>gradient.png</Source>
+      <Name>gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\gradient.xnb</Output>
+      <Time>2015-11-19T17:17:44.0813002+08:00</Time>
+    </Item>
+    <Item>
+      <Source>2.png</Source>
+      <Name>2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\2.xnb</Output>
+      <Time>2015-11-20T13:50:05.71582+08:00</Time>
+    </Item>
+    <Item>
+      <Source>background (2).png</Source>
+      <Name>background (2)</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\background (2).xnb</Output>
+      <Time>2015-11-20T13:55:37.1397594+08:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\menufont.xnb</Output>
+      <Time>2015-11-19T17:17:44.0863037+08:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\gamefont.xnb</Output>
+      <Time>2015-11-19T17:17:44.0732945+08:00</Time>
+    </Item>
+    <Item>
+      <Source>xboxControllerSpriteFont.tga</Source>
+      <Name>xboxControllerSpriteFont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\xboxControllerSpriteFont.xnb</Output>
+      <Time>2015-11-20T14:35:47.2385211+08:00</Time>
+    </Item>
+    <Item>
+      <Source>p_Sprite_0.png</Source>
+      <Name>p_Sprite_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\p_Sprite_0.xnb</Output>
+      <Time>2015-11-20T15:15:30.677617+08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{B7219195-3990-4557-87D7-856DB165635D}</ContentProjectGUID>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-11-19T11:16:50.6692059+08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

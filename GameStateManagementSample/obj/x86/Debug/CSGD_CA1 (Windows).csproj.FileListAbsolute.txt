@@ -1,0 +1,15 @@
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\background.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\blank.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\gradient.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\2.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\menufont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\gamefont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\x86\Debug\CSGD_CA1 (Windows).csprojResolveAssemblyReference.cache
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\background (2).xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\xboxControllerSpriteFont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Space Flight.exe
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Space Flight.pdb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\x86\Debug\Space Flight.exe
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\x86\Debug\Space Flight.pdb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\p_Sprite_0.xnb

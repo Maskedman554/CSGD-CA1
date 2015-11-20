@@ -1,0 +1,6 @@
+Content\background.xnb
+Content\blank.xnb
+Content\gradient.xnb
+Content\2.xnb
+Content\menufont.xnb
+Content\gamefont.xnb
