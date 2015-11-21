@@ -144,7 +144,7 @@ namespace GameStateManagement
 
                 if (score == 20)
                 {
-
+                    ScreenManager.AddScreen(new WinGameMenuScreen(), ControllingPlayer);
                 }
             }
         }

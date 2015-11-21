@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{43359066-f3cf-4051-a640-a1a998957e4b}</ProjectGuid>
+    <ProjectGuid>{43359066-F3CF-4051-A640-A1A998957E4B}</ProjectGuid>
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
@@ -70,15 +70,16 @@
     <Compile Include="ScreenManager\InputState.cs" />
     <Compile Include="ScreenManager\ScreenManager.cs" />
     <Compile Include="Screens\BackgroundScreen.cs" />
+    <Compile Include="Screens\ControlsMenuScreen.cs" />
     <Compile Include="Screens\GameplayScreen.cs" />
     <Compile Include="Screens\LoadingScreen.cs" />
     <Compile Include="Screens\MainMenuScreen.cs" />
     <Compile Include="Screens\MenuEntry.cs" />
     <Compile Include="Screens\MenuScreen.cs" />
     <Compile Include="Screens\MessageBoxScreen.cs" />
-    <Compile Include="Screens\OptionsMenuScreen.cs" />
     <Compile Include="Screens\PauseMenuScreen.cs" />
     <Compile Include="Screens\PlayerIndexEventArgs.cs" />
+    <Compile Include="Screens\WinGameMenuScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
