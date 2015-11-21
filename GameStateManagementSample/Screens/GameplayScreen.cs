@@ -42,8 +42,7 @@ namespace GameStateManagement
 
         Random random = new Random();
 
-        //static DateTime startRumble;
-        float rumbleDuration = 1.0f;
+        int score = 0;
 
         float pauseAlpha;
         float playerSpeed;
@@ -134,12 +133,18 @@ namespace GameStateManagement
                     starPosition = new Vector2(random.Next(100, 1100), random.Next(100, 600));
                     s.Start();
                     GamePad.SetVibration(PlayerIndex.One, 0.5f, 0.5f);
+                    score++;
                 }
                 if (s.Elapsed > TimeSpan.FromSeconds(0.5))
                 {
                     GamePad.SetVibration(PlayerIndex.One, 0f, 0f);
                     s.Stop();
                     s.Reset();
+                }
+
+                if (score == 20)
+                {
+
                 }
             }
         }
@@ -229,7 +234,11 @@ namespace GameStateManagement
             spriteBatch.Draw(starTexture, starPosition, null, Color.White, 0, new Vector2(256, 256),
                             0.2f, SpriteEffects.None, 0);
 
+            string text = "Score: " + score;
+            
+            spriteBatch.DrawString(gameFont, text, new Vector2((float)((ScreenManager.GraphicsDevice.Viewport.Width / 2) - (gameFont.MeasureString(text).X / 2)), (float)(ScreenManager.GraphicsDevice.Viewport.Height * 0.1)), Color.White);
             spriteBatch.End();
+
 
             // If the game is transitioning on or off, fade it out to black.
             if (TransitionPosition > 0 || pauseAlpha > 0)
