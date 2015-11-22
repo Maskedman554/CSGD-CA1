@@ -9,6 +9,7 @@
 
 #region Using Statements
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
@@ -56,6 +57,10 @@ namespace GameStateManagement
             screenManager = new ScreenManager(this);
 
             Components.Add(screenManager);
+
+#if XBOX360
+            Components.Add(new GamerServicesComponent(this)); 
+#endif
 
             // Activate the first screens.
             screenManager.AddScreen(new BackgroundScreen(), null);

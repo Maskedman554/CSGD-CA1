@@ -15,6 +15,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
+using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
 namespace GameStateManagement
@@ -123,6 +124,8 @@ namespace GameStateManagement
             }
             else
                 pauseAlpha = Math.Max(pauseAlpha - 1f / 32, 0);
+            if (Guide.IsVisible)
+                GamePad.SetVibration(PlayerIndex.One, 0f, 0f);
 
             if (IsActive)
             {
@@ -171,7 +174,7 @@ namespace GameStateManagement
             // on PC if they are playing with a keyboard and have no gamepad at all!
             bool gamePadDisconnected = !gamePadState.IsConnected &&
                                        input.GamePadWasConnected[playerIndex];
-
+            
             if (input.IsPauseGame(ControllingPlayer) || gamePadDisconnected)
             {
                 ScreenManager.AddScreen(new PauseMenuScreen(), ControllingPlayer);
@@ -193,7 +196,8 @@ namespace GameStateManagement
 
                 if (keyboardState.IsKeyDown(Keys.Down))
                     playerSpeed -= 0.1f;
-
+#endif
+#if XBOX360
                 Vector2 thumbstick = gamePadState.ThumbSticks.Left;
 
                 playerRotDeg += thumbstick.X * 2;
@@ -212,7 +216,6 @@ namespace GameStateManagement
         /// </summary>
         public override void Draw(GameTime gameTime)
         {
-            // This game has a blue background. Why? Because!
             SpriteBatch backgroundSpriteBatch = ScreenManager.SpriteBatch;
             Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
             Rectangle fullscreen = new Rectangle(0, 0, viewport.Width, viewport.Height);

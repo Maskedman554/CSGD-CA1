@@ -13,3 +13,4 @@ C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSamp
 C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Debug\GameStateManagementSample.pdb
 C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\xboxControllerSpriteFont.xnb
 C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\p_Sprite_0.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Debug\Content\Controls.xnb

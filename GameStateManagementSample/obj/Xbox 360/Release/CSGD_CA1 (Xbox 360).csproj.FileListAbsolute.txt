@@ -1,0 +1,16 @@
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\background.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\blank.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\gradient.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\2.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\background (2).xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\xboxControllerSpriteFont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\p_Sprite_0.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\Controls.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\menufont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\gamefont.xnb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\GameStateManagementSample.exe
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\GameStateManagementSample.pdb
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Release\CSGD_CA1 (Xbox 360).csprojResolveAssemblyReference.cache
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Release\GameStateManagementSample.exe
+C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Release\GameStateManagementSample.pdb

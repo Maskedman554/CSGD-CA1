@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\background.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\background.xnb</Output>
       <Time>2015-11-19T17:17:44.0452384+08:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\blank.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\blank.xnb</Output>
       <Time>2015-11-19T17:17:44.0522301+08:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\gradient.xnb</Output>
       <Time>2015-11-19T17:17:44.0813002+08:00</Time>
     </Item>
     <Item>
@@ -34,26 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\2.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\2.xnb</Output>
       <Time>2015-11-20T13:50:05.71582+08:00</Time>
-    </Item>
-    <Item>
-      <Source>menufont.spritefont</Source>
-      <Name>menufont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2015-11-19T17:17:44.0863037+08:00</Time>
-    </Item>
-    <Item>
-      <Source>gamefont.spritefont</Source>
-      <Name>gamefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\gamefont.xnb</Output>
-      <Time>2015-11-19T17:17:44.0732945+08:00</Time>
     </Item>
     <Item>
       <Source>background (2).png</Source>
@@ -61,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\background (2).xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\background (2).xnb</Output>
       <Time>2015-11-20T13:55:37.1397594+08:00</Time>
     </Item>
     <Item>
@@ -70,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>FontTextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\xboxControllerSpriteFont.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\xboxControllerSpriteFont.xnb</Output>
       <Time>2015-11-20T14:35:47.2385211+08:00</Time>
     </Item>
     <Item>
@@ -79,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\p_Sprite_0.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\p_Sprite_0.xnb</Output>
       <Time>2015-11-22T11:09:37.883477+08:00</Time>
     </Item>
     <Item>
@@ -88,20 +70,38 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\Controls.xnb</Output>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\Controls.xnb</Output>
       <Time>2015-11-21T14:55:36.602029+08:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\menufont.xnb</Output>
+      <Time>2015-11-19T17:17:44.0863037+08:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\gamefont.xnb</Output>
+      <Time>2015-11-19T17:17:44.0732945+08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B7219195-3990-4557-87D7-856DB165635D}</ContentProjectGUID>
-      <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>Reach</TargetProfile>
-      <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\Content\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\x86\Debug\Content\</OutputDirectory>
+      <IntermediateDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\GameStateManagementSample\bin\Xbox 360\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

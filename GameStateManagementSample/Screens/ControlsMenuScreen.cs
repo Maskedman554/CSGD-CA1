@@ -30,6 +30,7 @@ namespace GameStateManagement
         #endregion
 
         #region Initialization
+        
 
         /// <summary>
         /// Constructor.
@@ -38,14 +39,12 @@ namespace GameStateManagement
             : base("Controls")
         {
             MenuEntry back = new MenuEntry("Back");
-
             // Hook up menu event handlers.
             back.Selected += OnCancel;
-            
+
             // Add entries to the menu.
             MenuEntries.Add(back);
         }
-
         public override void LoadContent()
         {
             if (content == null)
@@ -61,7 +60,6 @@ namespace GameStateManagement
         {
             content.Unload();
         }
-
         #endregion
 
         #region Draw
@@ -69,8 +67,9 @@ namespace GameStateManagement
         public override void Draw(GameTime gameTime)
         {
             Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
-            Vector2 center = new Vector2(viewport.Width / 2, viewport.Height / 2);
+            Vector2 center = new Vector2(viewport.Width / 2, viewport.Height / 2 + 100);
 
+            // Our player and enemy are both actually just text strings.
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
 
             spriteBatch.Begin();
@@ -78,6 +77,8 @@ namespace GameStateManagement
             spriteBatch.Draw(controlsTexture, center, null, new Color(TransitionAlpha, TransitionAlpha, TransitionAlpha), 0, new Vector2(400, 300), 1, SpriteEffects.None, 0);
 
             spriteBatch.End();
+
+            base.Draw(gameTime);
         }
 
         #endregion

@@ -7,3 +7,4 @@ Content\menufont.xnb
 Content\gamefont.xnb
 Content\xboxControllerSpriteFont.xnb
 Content\p_Sprite_0.xnb
+Content\Controls.xnb
