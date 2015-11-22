@@ -124,8 +124,10 @@ namespace GameStateManagement
             }
             else
                 pauseAlpha = Math.Max(pauseAlpha - 1f / 32, 0);
+#if XBOX360
             if (Guide.IsVisible)
                 GamePad.SetVibration(PlayerIndex.One, 0f, 0f);
+#endif
 
             if (IsActive)
             {

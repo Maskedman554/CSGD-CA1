@@ -1,1 +1,2 @@
 C:\Users\Y410P\Documents\DIT\Visual Studio\CSGD\CSGD_CA1\Content\obj\x86\Release\Content.contentprojResolveAssemblyReference.cache
+C:\Users\Y410P\Documents\DIT\CSGD_GIT\Content\obj\x86\Release\Content.contentprojResolveAssemblyReference.cache
